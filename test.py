@@ -85,7 +85,7 @@ def main():
             print trans.shape
             print inv_trans.shape
 
-            flow_tf = tf.expand_dims(tf.to_float(tf.constant(flow)), 0)
+            flow_tf = tbdrgtf.expand_dims(tf.to_float(tf.constant(flow)), 0)
             aug_flow_tf = _preprocessing_ops.flow_augmentation(flow_tf, trans, inv_trans, crop)
 
             aug_flow = sess.run(aug_flow_tf)[0, :, :, :]
