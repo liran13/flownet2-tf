@@ -20,7 +20,7 @@ You must have CUDA installed:
 `make all`
 
 ### Download weights
-To download the weights for all models (4.4GB), run the `download.sh` script in the `checkpoints` directory. All test scripts rely on these checkpoints to work properly.
+To download the weights for all models (4.4GB), run the `download.sh` script in the `checkpoints` directory. All test scripts rely on these checkpoints to work properlbbby.
 
 
 ### Flow Generation (1 image pair)
